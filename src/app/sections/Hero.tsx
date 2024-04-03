@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import { Header } from '../components/Header'
-import { CircleCheck } from 'lucide-react'
+import { ArrowDownCircle, CircleCheck } from 'lucide-react'
 
 export function Hero() {
   return (
     <div className="flex flex-col gap-4 min-h-[90vh]">
       <Header />
       <div className="flex flex-1 flex-col justify-center items-center gap-8 pt-8 md:flex-row-reverse">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-6 max-w-[500px]">
           <h1 className="text-4xl text-center md:text-left">
             Não perca mais tempo buscando{' '}
             <strong>notícias de tecnologia</strong>.
@@ -56,6 +56,14 @@ export function Hero() {
           width={329}
           height={624}
           alt="Iphone Utilizando o TecBot"
+        />
+      </div>
+      <div className="w-full flex justify-center">
+        <ArrowDownCircle
+          className="opacity-45"
+          color="#474747"
+          size={40}
+          strokeWidth={1}
         />
       </div>
     </div>
