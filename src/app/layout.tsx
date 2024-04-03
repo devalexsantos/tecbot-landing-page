@@ -20,7 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={blinker.className}>{children}</body>
+      <body
+        className={`bg-[url('/img/background-page.png')] bg-repeat ${blinker.className}`}
+      >
+        <div className="container m-auto max-w-5xl p-8">{children}</div>
+      </body>
     </html>
   )
 }
