@@ -43,7 +43,7 @@ export function FAQ() {
   ]
 
   return (
-    <>
+    <div id="faq" className="w-full">
       <h2 className="text-3xl font-bold text-center mt-10">FAQ</h2>
       <h3 className="text-xl">Perguntas Frequentes:</h3>
       <Accordion.Root className="w-full" type="single">
@@ -72,6 +72,6 @@ export function FAQ() {
           </Accordion.Item>
         ))}
       </Accordion.Root>
-    </>
+    </div>
   )
 }

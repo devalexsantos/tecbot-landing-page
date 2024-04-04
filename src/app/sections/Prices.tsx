@@ -4,7 +4,10 @@ import { FAQ } from './FAQ'
 
 export function Prices() {
   return (
-    <div className="flex flex-col items-center text-center gap-4 min-h-[90vh]">
+    <div
+      id="preco"
+      className="flex flex-col items-center text-center gap-4 min-h-[90vh]"
+    >
       <div className="flex flex-col justify-center items-center gap-8 pt-8 mt-8">
         <div className="flex flex-col items-center gap-8 max-w-[665px]">
           <h2 className="text-5xl font-bold text-center md:text-left">
