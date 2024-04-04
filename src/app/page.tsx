@@ -1,5 +1,6 @@
 import { Hero } from './sections/Hero'
 import { ListNews } from './sections/ListNews'
+import { Prices } from './sections/Prices'
 import { SearchTerms } from './sections/SearchTerms'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <ListNews />
       <SearchTerms />
+      <Prices />
     </main>
   )
 }
