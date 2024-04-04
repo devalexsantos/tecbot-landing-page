@@ -1,5 +1,7 @@
 import { Check } from 'lucide-react'
 import Image from 'next/image'
+import { BuyButton } from '../components/buttons/BuyButton'
+import { TryButton } from '../components/buttons/TryButton'
 
 export function ListNews() {
   const tecnologies = [
@@ -22,7 +24,7 @@ export function ListNews() {
             <h2 className="text-5xl font-extrabold text-primary text-center md:text-left">
               Fique por dentro de tudo o que acontece na área de TI
             </h2>
-            <div className="flex flex-wrap items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2 justify-center md:justify-start">
               {tecnologies.map((tecnology) => (
                 <span
                   key={tecnology}
@@ -33,7 +35,13 @@ export function ListNews() {
                 </span>
               ))}
             </div>
-            <span>E muito mais!</span>
+            <span className="text-center md:text-left">
+              E muito mais sendo inseridos a todo momento!
+            </span>
+            <div className="flex items-center gap-4">
+              <BuyButton />
+              <TryButton />
+            </div>
           </div>
           <Image
             src="/img/iphone-mockup.png"
