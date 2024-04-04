@@ -1,5 +1,6 @@
 import { BuyButton } from '../components/buttons/BuyButton'
 import { TryButton } from '../components/buttons/TryButton'
+import { FAQ } from './FAQ'
 
 export function Prices() {
   return (
@@ -40,6 +41,7 @@ export function Prices() {
           <TryButton />
         </div>
       </div>
+      <FAQ />
     </div>
   )
 }
