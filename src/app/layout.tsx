@@ -24,6 +24,19 @@ export default function RootLayout({
         className={`bg-[url('/img/background-page.png')] bg-repeat ${blinker.className}`}
       >
         <div className="container m-auto max-w-5xl p-8">{children}</div>
+        <footer className="py-8 bg-slate-100 mt-14">
+          <p className="text-center text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} TecBot. Todos os direitos
+            reservados. Desenvolvido por{' '}
+            <a
+              href="https://www.linkedin.com/in/devalexsantos/"
+              target="_blank"
+              className="underline"
+            >
+              Alex Santos
+            </a>
+          </p>
+        </footer>
       </body>
     </html>
   )
