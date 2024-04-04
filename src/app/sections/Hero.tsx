@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import { Header } from '../components/Header'
 import { ArrowDownCircle, CircleCheck } from 'lucide-react'
+import { BuyButton } from '../components/buttons/BuyButton'
+import { TryButton } from '../components/buttons/TryButton'
 
 export function Hero() {
   return (
@@ -48,6 +50,10 @@ export function Hero() {
                   portais.
                 </span>
               </div>
+            </div>
+            <div className="flex gap-4 mt-6">
+              <BuyButton />
+              <TryButton />
             </div>
           </div>
         </div>
