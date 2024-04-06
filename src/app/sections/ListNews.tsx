@@ -44,7 +44,7 @@ export function ListNews() {
             </div>
           </div>
           <Image
-            src="/img/iphone-mockup.png"
+            src="/img/iphone-news-tecbot.png"
             width={329}
             height={624}
             alt="Iphone Utilizando o TecBot"

@@ -16,7 +16,7 @@ export function SearchTerms() {
           <strong> todos os canais</strong>!
         </span>
         <Image
-          src="/img/iphone-mockup-cut.png"
+          src="/img/iphone-search-tecbot.png"
           width={329}
           height={454}
           alt="Iphone mockup with tecbot search bar"
